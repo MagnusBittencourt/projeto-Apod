@@ -1,13 +1,20 @@
-h1{
-    text-align: center;
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
 }
-.search{
-    margin: auto;
-    text-align: center;
-}
-.teste{
+
+    header{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
 }
+
+.data{
+    
+    display: flex;
+    justify-content: center;
+}
+

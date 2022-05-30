@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="./script.js" defer></script>
     <title>Apod</title>
-</head>
-<body>
-        <h1>Nasa</h1>
-    
-    <div class="teste">
-        <input id="searchTerm" type="date" placeholder="Enter search term"/>
-        <button id="search">Search</button>
-    </div>
-    
-    
-    <div id="content">
-
-    </div>
-    
+  </head>
+  <body>
     
 
-</body>
+    
+      <header>
+        <a><img src="https://www.imagensanimadas.com/data/media/1553/viagem-espacial-imagem-animada-0021.gif" border="0" alt="viagem-espacial-imagem-animada-0021" /></a>
+        &emsp;
+        <h1>
+          <p id="title">Astronomy Picture of day</p>
+        </h1>
+        &emsp;
+        <a><img src="https://www.imagensanimadas.com/data/media/1553/viagem-espacial-imagem-animada-0015.gif" border="0" alt="viagem-espacial-imagem-animada-0015" /></a>
+      </header>
+      <div class="data" id="parte-data">
+        <input type="date" min="1995-06-20" name="data" id="data" />
+        <button id="submit" value="Pesquisar"><i>Search</i></button>
+      </div>
+    
+    <div id="principal">
+      <p class="imagem"></p>
+      <p class="explanation"></p>
+      <p class="titulo"></p>
+      <br />
+      <br />
+      <p class="copyright"></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="apod.js"></script>
+  </body>
 </html>
